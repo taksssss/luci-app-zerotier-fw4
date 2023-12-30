@@ -2,7 +2,7 @@
 
 OpenWrt 23.05 正常运行
 
-form https://downloads.immortalwrt.org/snapshots/packages/mipsel_24kc/luci/
+from https://downloads.immortalwrt.org/snapshots/packages/mipsel_24kc/luci/
 
 ```shell
 wget --no-check-certificate https://gh-proxy.com/https://github.com/TakcC/luci-app-zerotier/releases/download/v0/luci-app-zerotier_git-23.137.55137-42dce6a_all.ipk
