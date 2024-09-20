@@ -12,16 +12,7 @@ from https://downloads.immortalwrt.org/snapshots/packages/mipsel_24kc/luci/
 
 
 ```shell
-wget --no-check-certificate https://github.com/TakcC/luci-app-zerotier/releases/download/v0.1/luci-app-zerotier_24.131.37302~c6d6329_all.ipk
-wget --no-check-certificate https://github.com/TakcC/luci-app-zerotier/releases/download/v0.1/luci-i18n-zerotier-zh-cn_24.011.35710~41c4436_all.ipk
-opkg install luci-app-zerotier*.ipk luci-i18n-zerotier*.ipk --force-overwrite
-```
-
-
-TIPS: 可自行添加代理服务器，如
-
-```shell
-wget --no-check-certificate https://mirror.ghproxy.com/https://github.com/TakcC/luci-app-zerotier/releases/download/v0.1/luci-app-zerotier_24.131.37302~c6d6329_all.ipk
-wget --no-check-certificate https://mirror.ghproxy.com/https://github.com/TakcC/luci-app-zerotier/releases/download/v0.1/luci-i18n-zerotier-zh-cn_24.011.35710~41c4436_all.ipk
+wget --no-check-certificate https://downloads.immortalwrt.org/snapshots/packages/mipsel_24kc/luci/luci-app-zerotier_24.131.37302~c6d6329_all.ipk
+wget --no-check-certificate https://downloads.immortalwrt.org/snapshots/packages/mipsel_24kc/luci/luci-i18n-zerotier-zh-cn_24.011.35710~41c4436_all.ipk
 opkg install luci-app-zerotier*.ipk luci-i18n-zerotier*.ipk --force-overwrite
 ```
